@@ -1,13 +1,9 @@
+import ThemeToggle from "../components/ThemeToggle.jsx";
+
 export default function Home() {
     return(
-        <div className="min-h-screen container">
-            <h2>Home</h2>
+        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+            <ThemeToggle/>
         </div>
     );
 }
-
-// Theme Toggle
-// Background-effects
-// Navbar 
-// Main content
-// footer
